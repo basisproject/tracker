@@ -46,8 +46,12 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
   - [ ] Finalized labor hours are given as credits to company members ([#53][i53])
   - [ ] Global (not regional) "resource plan" which sets a resource value for each credit
 - Regional asset tracker
-  - [ ] Ability to add/remove *regonal* assets to the system
-  - [ ] Available assets can be marked *in-use* by any member company
+  - [ ] Specific permissions for managing regional assets
+    - [ ] Permission for creating orders for acquiring assets
+    - [ ] Permission for putting assets up for sale on the public market
+    - [ ] Permission for arbiting use of assets
+  - [ ] Ability to add/remove assets to/from the system
+  - [ ] Available assets can be marked *in-use* by any member company (and will no longer be available afterwards)
   - [ ] Asset usage can have determined end-date or be open ended
   - [ ] Order system used as an asset waitlist
   - [ ] Asset costing
