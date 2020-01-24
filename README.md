@@ -90,6 +90,7 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
 [i56]: https://gitlab.com/basisproject/tracker/issues/56
 [i57]: https://gitlab.com/basisproject/tracker/issues/57
 [i58]: https://gitlab.com/basisproject/tracker/issues/58
+[i59]: https://gitlab.com/basisproject/tracker/issues/59
 
 ## Contributing
 
