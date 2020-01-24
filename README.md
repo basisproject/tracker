@@ -51,28 +51,29 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
   - [ ] Available assets can be marked *in-use* by any member company (and will no longer be available afterwards) ([#59][i59])
   - [ ] Asset usage can have determined end-date or be open ended ([#59][i59])
   - [ ] Asset costing ([#59][i59])
+  - [ ] Asset collaboration ([#61][i61])
 - Voting
-  - [ ] Anonymous voting
-  - [ ] Ability to give a per-region permission to a user or set of users (council) for a set term
-    - [ ] Ability to recall appointees (workers' council)
-    - [ ] Councils have an approval threshold, requiring some percentage of council members to sign a transaction for it to be accepted by the system
-  - [ ] Ability to vote on specific regional parameters
-    - [ ] Absolute voting: majority wins
-    - [ ] Value range voting: allow variable inputs and take average of all votes
-  - [ ] Liquid democracy
+  - [ ] Anonymous voting ([#60][i60])
+  - [ ] Ability to give a per-region permission to a user or set of users (council) for a set term ([#60][i60])
+    - [ ] Ability to recall appointees (workers' council) ([#60][i60])
+    - [ ] Councils have an approval threshold, requiring some percentage of council members to sign a transaction for it to be accepted by the system ([#60][i60])
+  - [ ] Ability to vote on specific regional parameters ([#60][i60])
+    - [ ] Absolute voting: majority wins ([#60][i60])
+    - [ ] Value range voting: allow variable inputs and take average of all votes ([#60][i60])
+  - [ ] Liquid democracy ([#60][i60])
 - Public companies/projects
-  - [ ] Any member can propose a new public company/project
-  - [ ] Budget of company/project (labor/resources) depends on regional support
-    - [ ] Companies have ongoing monthly budgets
-    - [ ] Projects have a fixed cost budget
-    - [ ] Budgeted costs of companies/projects are attributed to the region's cost pool
-    - [ ] Non-budgeted costs must be paid via providing products/services to consumers/companies
-  - [ ] Public companies/projects can have board/council members appointed by public
-  - [ ] Multi-region companies/projects
-    - [ ] Two or more regions can coordinate to create a new project
-    - [ ] Budgets and costs would be decided proportionally per-region based on member support
-    - [ ] Board members would be decided per-region based on member support
-  - [ ] Regional taxation (some portion of credits earned go to repay regional cost pool)
+  - [ ] Any member can propose a new public company/project ([#62][i62])
+  - [ ] Budget of company/project (labor/resources) depends on regional support ([#62][i62])
+    - [ ] Companies have ongoing monthly budgets ([#62][i62])
+    - [ ] Projects have a fixed cost budget ([#62][i62])
+    - [ ] Budgeted costs of companies/projects are attributed to the region's cost pool ([#62][i62])
+    - [ ] Non-budgeted costs must be paid via providing products/services to consumers/companies ([#62][i62])
+  - [ ] Public companies/projects can have board/council members appointed by public ([#62][i62])
+  - [ ] Multi-region companies/projects ([#63][i63])
+    - [ ] Two or more regions can coordinate to create a new project ([#63][i63])
+    - [ ] Budgets and costs would be decided proportionally per-region based on member support ([#63][i63])
+    - [ ] Board members would be decided per-region based on member support ([#63][i63])
+  - [ ] Regional taxation (some portion of credits earned go to repay regional cost pool) ([#64][i64])
 
 [i4]: https://gitlab.com/basisproject/tracker/issues/4
 [i7]: https://gitlab.com/basisproject/tracker/issues/7
@@ -91,6 +92,11 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
 [i57]: https://gitlab.com/basisproject/tracker/issues/57
 [i58]: https://gitlab.com/basisproject/tracker/issues/58
 [i59]: https://gitlab.com/basisproject/tracker/issues/59
+[i60]: https://gitlab.com/basisproject/tracker/issues/60
+[i61]: https://gitlab.com/basisproject/tracker/issues/61
+[i62]: https://gitlab.com/basisproject/tracker/issues/62
+[i63]: https://gitlab.com/basisproject/tracker/issues/63
+[i64]: https://gitlab.com/basisproject/tracker/issues/64
 
 ## Contributing
 
