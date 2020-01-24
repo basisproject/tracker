@@ -17,6 +17,7 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
     - [ ] Per-week hourly minimum to be considered a member
     - [ ] Worker credit multiplier cap
     - [ ] Distribution plans for regional profits
+    - [ ] Minimum profit percentage for providing products/services to non-members
   - [ ] Cost pool, shows how many costs a region has incurred in total (via public companies/projects)
 - Cost tracking
   - [x] Cost tracking algorithm using cost tags as a method for portioning costs ([#44][i44])
@@ -56,7 +57,7 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
   - [ ] Order system used as an asset waitlist
   - [ ] Asset costing
     - [ ] Maintenance costs are taken on by those in-use of asset
-    - [ ] Market rate costing for renting asset on the open market
+    - [ ] Market rate costing for renting asset to non-members (set by company in use of asset, possibly with some restrictions)
     - [ ] Per-member costing based on membership percentage (member pays at-cost + difference between at-cost and market-rate depending on their status)
 - Voting
   - [ ] Anonymous voting
