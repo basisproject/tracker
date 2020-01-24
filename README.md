@@ -10,30 +10,25 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
   - [x] Anybody can join with a keypair
   - [x] Any user can start a private company (non-member company)
   - [x] Companies can be converted to member companies (syndicates)
-    - [ ] Permission to convert company to syndicate is restricted by region
 - Regions
-  - [ ] Support a set of regionals parameter that can be changed by members of the region
-    - [ ] Per-week hourly ceiling on membership status
-    - [ ] Per-week hourly minimum to be considered a member
-    - [ ] Worker credit multiplier cap
-    - [ ] Distribution plans for regional profits
-    - [ ] Minimum profit percentage for providing products/services to non-members
-  - [ ] Cost pool, shows how many costs a region has incurred in total (via public companies/projects)
+  - [ ] Support a set of regional parameter that can be changed by members of the region ([#54][i54])
+  - [ ] Cost pool, shows how many costs a region has incurred in total, via public companies/projects ([#54][i54])
 - Cost tracking
   - [x] Cost tracking algorithm using cost tags as a method for portioning costs ([#44][i44])
   - [ ] Labor time tracking ([#14][i14])
     - [x] Per-occupation tracking ([#33][i33])
     - [ ] Per-member and per-labor wage multiplier ([#53][i53])
   - [x] Ability for companies to order from each other
-  - [x] Resource tags allowing tracking of certain products as resources
+  - [x] Resource tags allowing tracking of certain products as resources ([#31][i31])
   - [x] Product cost tracking
   - [ ] Service cost tracking ([#20][i20])
   - [ ] Amortization pools ([#12][i21])
   - [x] Single-company cost simulation
-  - [x] Small-economy cost simulation
+  - [x] Small-economy cost simulation ([#7][i7])
 - Public market
   - [ ] Private transactions for consumers and market companies ([#4][i4])
-  - [ ] Product offerings (interfacing between moneyless and market economy)
+  - [ ] Consumer orders ([#32][i32], [#4][i4])
+  - [ ] Product offerings (interfacing between moneyless and market economy) ([#57][i57])
   - [ ] API for market
     - [ ] Ability to securely act on user's behalf in blockchain ([#52][i52])
     - [ ] Supporting infrastructure
@@ -43,22 +38,19 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
     - [ ] Payment system integration, storage of currency via "wallets"
       - [ ] KYC bullshit
   - [ ] UI for market
+- Bank
+  - [ ] Holds all transactional profits ([#55][i55])
+  - [ ] Allows conversion of credits to local currency (but NOT the other way around) ([#55][i55])
+  - [ ] Controls regional investment parameters ([#56][i56])
 - Credit system
   - [ ] Finalized labor hours are given as credits to company members ([#53][i53])
-  - [ ] Global (not regional) "resource plan" which sets a resource value for each credit
+  - [ ] Global (not regional) "resource plan" which sets a resource value for each credit ([#58][i58])
 - Regional asset tracker
-  - [ ] Specific permissions for managing regional assets
-    - [ ] Permission for creating orders for acquiring assets
-    - [ ] Permission for putting assets up for sale on the public market
-    - [ ] Permission for arbiting use of assets
-  - [ ] Ability to add/remove assets to/from the system
-  - [ ] Available assets can be marked *in-use* by any member company (and will no longer be available afterwards)
-  - [ ] Asset usage can have determined end-date or be open ended
-  - [ ] Order system used as an asset waitlist
-  - [ ] Asset costing
-    - [ ] Maintenance costs are taken on by those in-use of asset
-    - [ ] Market rate costing for renting asset to non-members (set by company in use of asset, possibly with some restrictions)
-    - [ ] Per-member costing based on membership percentage (member pays at-cost + difference between at-cost and market-rate depending on their status)
+  - [ ] Specific permissions for managing regional assets ([#59][i59])
+  - [ ] Ability to add/remove assets to/from the system ([#59][i59])
+  - [ ] Available assets can be marked *in-use* by any member company (and will no longer be available afterwards) ([#59][i59])
+  - [ ] Asset usage can have determined end-date or be open ended ([#59][i59])
+  - [ ] Asset costing ([#59][i59])
 - Voting
   - [ ] Anonymous voting
   - [ ] Ability to give a per-region permission to a user or set of users (council) for a set term
@@ -83,13 +75,21 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
   - [ ] Regional taxation (some portion of credits earned go to repay regional cost pool)
 
 [i4]: https://gitlab.com/basisproject/tracker/issues/4
+[i7]: https://gitlab.com/basisproject/tracker/issues/7
 [i14]: https://gitlab.com/basisproject/tracker/issues/14
 [i20]: https://gitlab.com/basisproject/tracker/issues/20
 [i21]: https://gitlab.com/basisproject/tracker/issues/21
+[i31]: https://gitlab.com/basisproject/tracker/issues/31
+[i32]: https://gitlab.com/basisproject/tracker/issues/32
 [i33]: https://gitlab.com/basisproject/tracker/issues/33
 [i44]: https://gitlab.com/basisproject/tracker/issues/44
 [i52]: https://gitlab.com/basisproject/tracker/issues/52
 [i53]: https://gitlab.com/basisproject/tracker/issues/53
+[i54]: https://gitlab.com/basisproject/tracker/issues/54
+[i55]: https://gitlab.com/basisproject/tracker/issues/55
+[i56]: https://gitlab.com/basisproject/tracker/issues/56
+[i57]: https://gitlab.com/basisproject/tracker/issues/57
+[i58]: https://gitlab.com/basisproject/tracker/issues/58
 
 ## Contributing
 
