@@ -22,8 +22,8 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
   - [x] Product cost tracking
   - [ ] Service cost tracking ([#20][i20])
   - [ ] Amortization pools ([#12][i21])
-  - [x] Single-company cost simulation
-  - [x] Small-economy cost simulation ([#7][i7])
+  - [x] [Single-company cost simulation](https://gitlab.com/basisproject/product-costs)
+  - [x] [Small-economy cost simulation](https://gitlab.com/basisproject/sim) ([#7][i7])
 - Public market
   - [x] Ability for member companies to order from other member companies
   - [ ] Ability for non-member companies to order from other companies (product offerings) ([#57][i57])
