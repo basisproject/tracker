@@ -18,7 +18,6 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
   - [ ] Labor time tracking ([#14][i14])
     - [x] Per-occupation tracking ([#33][i33])
     - [ ] Per-member and per-labor wage multiplier ([#53][i53])
-  - [x] Ability for companies to order from each other
   - [x] Resource tags allowing tracking of certain products as resources ([#31][i31])
   - [x] Product cost tracking
   - [ ] Service cost tracking ([#20][i20])
@@ -26,9 +25,10 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
   - [x] Single-company cost simulation
   - [x] Small-economy cost simulation ([#7][i7])
 - Public market
+  - [x] Ability for member companies to order from other member companies
+  - [ ] Ability for non-member companies to order from other companies (product offerings) ([#57][i57])
   - [ ] Private transactions for consumers and market companies ([#4][i4])
   - [ ] Consumer orders ([#32][i32], [#4][i4])
-  - [ ] Product offerings (interfacing between moneyless and market economy) ([#57][i57])
   - [ ] API for market
     - [ ] Ability to securely act on user's behalf in blockchain ([#52][i52])
     - [ ] Supporting infrastructure
