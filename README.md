@@ -15,9 +15,9 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
   - [ ] Cost pool, shows how many costs a region has incurred in total, via public companies/projects ([#54][i54])
 - Cost tracking
   - [x] Cost tracking algorithm using cost tags as a method for portioning costs ([#44][i44])
-  - [ ] Labor time tracking ([#14][i14])
+  - [x] Labor time tracking ([#14][i14])
     - [x] Per-occupation tracking ([#33][i33])
-    - [ ] Per-member and per-labor wage multiplier ([#53][i53])
+    - [x] Per-member and per-labor wage multiplier ([#53][i53])
   - [x] Resource tags allowing tracking of certain products as resources ([#31][i31])
   - [x] Product cost tracking
   - [ ] Service cost tracking ([#20][i20])
