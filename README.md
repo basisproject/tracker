@@ -42,6 +42,7 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
   - [ ] Holds all transactional profits ([#55][i55])
   - [ ] Allows conversion of credits to local currency (but NOT the other way around) ([#55][i55])
   - [ ] Controls regional investment parameters ([#56][i56])
+  - [ ] Currency tracking system for intermediate economies ([#65][i65])
 - Credit system
   - [ ] Finalized labor hours are given as credits to company members ([#53][i53])
   - [ ] Global (not regional) "resource plan" which sets a resource value for each credit ([#58][i58])
@@ -97,6 +98,7 @@ Although the [Basis paper](https://gitlab.com/basisproject/paper) is a living do
 [i62]: https://gitlab.com/basisproject/tracker/issues/62
 [i63]: https://gitlab.com/basisproject/tracker/issues/63
 [i64]: https://gitlab.com/basisproject/tracker/issues/64
+[i65]: https://gitlab.com/basisproject/tracker/issues/65
 
 ## Contributing
 
